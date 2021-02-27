@@ -1,10 +1,12 @@
 {
   "name": "is-roblox-ip",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Given an IPv4 adress, will return if the IP is from Roblox or not.",
   "main": "index.js",
   "types": "index.d.ts",
+  "typings": "index.d.ts",
+  "sideEffects": false,
   "module": "index.js",
   "exports": {
     "import": "./index.js"
