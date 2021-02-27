@@ -112,7 +112,7 @@ const roblox_ips = [
   "209.206.45.0/24",
   "209.206.46.0/24",
   "209.206.47.0/24"
-]
+].map(prefix => new Netmask(prefix))
 
 /**
  * Given an IP, will return if the IP is from Roblox or not.
@@ -121,7 +121,7 @@ const roblox_ips = [
  * @returns {boolean}
  */
 export function is_roblox_ip(ip) {
-  return roblox_ips.some(prefix => new Netmask(prefix).contains(ip))
+  return roblox_ips.some(prefix => prefix.contains(ip))
 }
 
 export default is_roblox_ip
