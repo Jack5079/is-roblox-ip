@@ -115,7 +115,8 @@ const roblox_ips = [
 ]
 
 /**
- * Takes an IP and will respond with true if the IP is from Roblox or not
+ * Given an IP, will return if the IP is from Roblox or not.
+ * 
  * @param {string} ip 
  * @returns {boolean}
  */
