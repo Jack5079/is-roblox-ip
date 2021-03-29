@@ -1,7 +1,7 @@
 {
   "name": "is-roblox-ip",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Given an IPv4 adress, will return if the IP is from Roblox or not.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -18,6 +18,6 @@
   "author": "Jack <hello@5079.ml> (https://5079.ml)",
   "license": "ISC",
   "dependencies": {
-    "netmask": "^1.0.6"
+    "netmask": "^2.0.1"
   }
 }
